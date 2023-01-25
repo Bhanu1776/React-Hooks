@@ -7,6 +7,7 @@ import UseEffect from "./Hooks/useEffect/UseEffect";
 import { GrandParent } from "./Hooks/useContext/GrandParent";
 import GrandChild from "./Hooks/useContext/GrandChild";
 import ReducerHook from "./Hooks/useReducer/ReducerHook";
+import RefHook from "./Hooks/useRef/RefHook";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <GrandParent>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     {/* <Challenge1 /> */}
     {/* <UseEffect /> */}
     {/* <GrandChild /> */}
-    <ReducerHook />
+    {/* <ReducerHook /> */}
+    <RefHook />
   </GrandParent>
 );
