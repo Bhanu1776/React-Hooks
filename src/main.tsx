@@ -8,6 +8,7 @@ import { GrandParent } from "./Hooks/useContext/GrandParent";
 import GrandChild from "./Hooks/useContext/GrandChild";
 import ReducerHook from "./Hooks/useReducer/ReducerHook";
 import RefHook from "./Hooks/useRef/RefHook";
+import MemoHook from "./Hooks/useMemo/MemoHook";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <GrandParent>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     {/* <UseEffect /> */}
     {/* <GrandChild /> */}
     {/* <ReducerHook /> */}
-    <RefHook />
+    {/* <RefHook /> */}
+    <MemoHook />
   </GrandParent>
 );
